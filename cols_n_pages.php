@@ -52,11 +52,11 @@ function columns_and_pages( $posts = NULL ){
 	// set number of columns
 	$cap->num_cols      = 3;
 
-	// set css classes for column #1, #2 & #3
-	$cap->cols_css      = array( 'left-column', 'middle-column', 'right-column' );
-
 	// set the divider between each columns-block
 	$cap->cols_divider  = '<!--nextpage-->';
+
+	// set css classes for column #1, #2 & #3
+	$cap->cols_css      = array( 'left-column', 'middle-column', 'right-column' );
 
 	// wrap the columns in this container
 	$cap->wrapper_for_cols = '<div class="columns">%s</div>';
